@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry-bug-report"
+version = "0.1.0"
+description = ""
+authors = ["Yusuke Miyazaki <miyazaki.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poetry_bug_report"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+# Works with pypa/build
+#requires = ["poetry-core==1.2.0"]
+# Breaks with pypa/build
+requires = ["poetry-core==1.3.1"]
+build-backend = "poetry.core.masonry.api"
