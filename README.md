@@ -1,5 +1,6 @@
 # poetry-bug-report
-  
+I reported this issue to https://github.com/python-poetry/poetry/issues/6733 and poetry-core==1.3.2 fixed it.
+
 ```shell
 $ python -m build --version
 build 0.8.0 (...)
